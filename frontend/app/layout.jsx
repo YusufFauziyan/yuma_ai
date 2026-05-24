@@ -2,10 +2,10 @@ import { Providers } from "./providers";
 import "./globals.css";
 
 export const metadata = {
-  title: "Yuma AI — Your Intelligent Assistant",
+  title: "Yuma AI — Automate Conversations. Delight Customers.",
   description:
-    "A modern AI chatbot powered by Google Gemini. Fast streaming responses, smart conversations, and beautiful interface.",
-  keywords: ["AI", "chatbot", "Gemini", "assistant", "SaaS"],
+    "Yuma AI helps teams automate support, conversations, and productivity using fast and intelligent AI assistance. Trusted by 5,000+ teams worldwide.",
+  keywords: ["AI", "customer support", "automation", "chatbot", "SaaS", "helpdesk", "AI assistant"],
 };
 
 export default function RootLayout({ children }) {
@@ -15,11 +15,11 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
           rel="stylesheet"
         />
       </head>
-      <body className="antialiased bg-gray-50 dark:bg-[#0a0a0a] text-gray-900 dark:text-gray-100">
+      <body className="antialiased">
         <Providers>{children}</Providers>
       </body>
     </html>
